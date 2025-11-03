@@ -5,7 +5,7 @@ Gone are the days of one-size-fits-all chatbots that lack personalization and fa
 
 # How To Run Locally:
 - clone this repository <br/>
-  `https://github.com/mohammed97ashraf/LLM_Agri_Bot.git`
+  `https://github.com/Cool-Engr/AI-Farming-Assistant.git`
 
 -  Install All The Required Libraries <br>
     `pip install - r requirements.txt`
@@ -14,7 +14,5 @@ Gone are the days of one-size-fits-all chatbots that lack personalization and fa
   open_ai_key = #add your OpenAI API key here`
 -  The Run Code by<br>
   `Python app.py`
-
-## [Read More at medium](https://medium.com/@mohammed97ashraf/creating-your-custom-chatbot-unleashing-the-power-of-openai-api-and-huggingface-for-text-and-voice-ccfbd39d6178)
 
 
