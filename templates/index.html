@@ -194,12 +194,12 @@
                     });
                 } else if (Notification.permission !== "denied") {
                     Notification.requestPermission().then(function(permission) {
-                        if (permission === "granted") {
-                            var notification = new Notification("New Message", {
-                                body: message,
-                                icon: "{{ url_for('static', filename='img/notification-icon.png') }}"
-                            });
-                        }
+                        // if (permission === "granted") {
+                        //     var notification = new Notification("New Message", {
+                        //         body: message,
+                        //         icon: "{{ url_for('static', filename='img/notification-icon.png') }}"
+                        //     });
+                        // }
                     });
                 }
             }
