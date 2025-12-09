@@ -78,11 +78,11 @@ def process_audio(filepath):
     # Replace this with your own implementation using libraries like SpeechRecognition or DeepSpeech
     #return 'hello This is a placeholder transcription for audio'
     API_URL = "https://api-inference.huggingface.co/models/jonatasgrosman/wav2vec2-large-xlsr-53-english"
-    # headers = {"Authorization": hugging_face}
-    # with open(filepath, "rb") as f:
-    #     data = f.read()
-    # response = requests.post(API_URL, headers=headers, data=data)
-    # data = response.json()
+    headers = {"Authorization": hugging_face}
+    with open(filepath, "rb") as f:
+        data = f.read()
+    response = requests.post(API_URL, headers=headers, data=data)
+    data = response.json()
     return data['text']
     
 
